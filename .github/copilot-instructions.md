@@ -48,6 +48,12 @@ This file contains custom instructions for GitHub Copilot to understand and work
 - Leverage Nuxt's built-in TypeScript support
 - Prefer explicit typing when it improves code clarity
 
+### Code Quality
+
+- Keep code clean and minimal - avoid unnecessary comments
+- Write self-documenting code with clear variable and function names
+- Only add comments when explaining complex business logic or non-obvious decisions
+
 ## Dependency Management
 
 - Prefer official `@nuxt/` modules when available
