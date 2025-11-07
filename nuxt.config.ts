@@ -7,6 +7,7 @@ export default defineNuxtConfig({
   vite: {
     plugins: [tailwindcss()],
   },
+
   i18n: {
     strategy: "prefix",
     defaultLocale: "en",

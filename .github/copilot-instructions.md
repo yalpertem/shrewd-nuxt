@@ -34,14 +34,6 @@ This file contains custom instructions for GitHub Copilot to understand and work
 - Keep components focused and single-purpose
 - Leverage Nuxt's auto-imports for composables and utilities
 
-### File Organization
-
-- **Components**: `components/` (auto-imported)
-- **Pages**: `pages/` (file-based routing)
-- **Composables**: `composables/` (auto-imported)
-- **Utilities**: `utils/` (auto-imported)
-- **Server**: `server/` (API routes and middleware)
-
 ### TypeScript
 
 - Use TypeScript by default for all new files

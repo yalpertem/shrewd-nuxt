@@ -1,6 +1,5 @@
 <template>
   <div class="space-y-8">
-    <!-- Hero Section -->
     <div class="text-center py-12">
       <h1 class="text-4xl font-bold text-gray-900 dark:text-white mb-4">
         {{ $t("pages.home.title") }}
@@ -10,16 +9,11 @@
       >
         {{ $t("pages.home.description") }}
       </p>
-      <NuxtLink
-        :to="localePath('/about')"
-        class="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 transition-colors"
-      >
-        {{ $t("pages.home.learnMore") }}
-      </NuxtLink>
     </div>
 
-    <!-- Best Practices Section -->
-    <div class="bg-white dark:bg-gray-800 rounded-lg shadow-sm p-8">
+    <div
+      class="bg-white dark:bg-gray-800 rounded-lg shadow-sm border border-gray-200 dark:border-gray-700 p-8"
+    >
       <h2 class="text-2xl font-semibold text-gray-900 dark:text-white mb-6">
         Template Features & Best Practices
       </h2>
@@ -62,11 +56,15 @@
     </div>
 
     <!-- Code Example -->
-    <div class="bg-white dark:bg-gray-800 rounded-lg shadow-sm p-8">
+    <div
+      class="bg-white dark:bg-gray-800 rounded-lg shadow-sm border border-gray-200 dark:border-gray-700 p-8"
+    >
       <h2 class="text-2xl font-semibold text-gray-900 dark:text-white mb-4">
         Current Route Information
       </h2>
-      <div class="bg-gray-100 dark:bg-gray-700 rounded p-4 font-mono text-sm">
+      <div
+        class="bg-gray-100 dark:bg-gray-700 rounded p-4 font-mono text-sm text-gray-800 dark:text-gray-200"
+      >
         <p><strong>Current Locale:</strong> {{ locale }}</p>
         <p><strong>Current Route:</strong> {{ $route.path }}</p>
         <p>
@@ -79,12 +77,10 @@
 
 <script setup lang="ts">
 const { locale, locales } = useI18n();
-const localePath = useLocalePath();
 
-// SEO
 useSeoMeta({
   title: "Shrewd Nuxt - Home",
-  description: "A minimal, opinionated Nuxt 4 starter with i18n support",
+  description: "A minimal, opinionated Nuxt 4 starter",
 });
 
 const availableLocales = computed(() =>

@@ -1,5 +1,5 @@
-import type { LocaleDataProvider, LocaleCode } from "~/types/locale";
-import { createLocaleDataProvider } from "~/services/locale-data-provider";
+import type { LocaleDataProvider, LocaleCode } from "~~/types/locale";
+import { createLocaleDataProvider } from "~~/services/locale-data-provider";
 
 /**
  * Composable for accessing locale data through the abstraction layer
