@@ -1,0 +1,14 @@
+{
+    "common": {
+        "home": "Home",
+        "language": "Language",
+        "welcome": "Welcome"
+    },
+    "pages": {
+        "home": {
+            "title": "Welcome to Shrewd Nuxt",
+            "description": "A minimal, opinionated Nuxt 4 starter with i18n support and best practices.",
+            "learnMore": "Learn More"
+        }
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "common": {
+        "home": "Ana Sayfa",
+        "language": "Dil",
+        "welcome": "Hoş Geldiniz"
+    },
+    "pages": {
+        "home": {
+            "title": "Shrewd Nuxt'a Hoş Geldiniz",
+            "description": "i18n desteği ve en iyi uygulamalar ile minimal, görüşlü bir Nuxt 4 başlangıç şablonu.",
+            "learnMore": "Daha Fazla Öğren"
+        }
+    }
+}

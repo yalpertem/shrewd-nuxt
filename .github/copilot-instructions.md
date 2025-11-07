@@ -4,7 +4,7 @@ This file contains custom instructions for GitHub Copilot to understand and work
 
 ## Project Overview
 
-**Shrewd Nuxt** is a minimal, opinionated Nuxt 3 starter that exclusively uses pnpm as the package manager. This project prioritizes simplicity, performance, and developer experience.
+**Shrewd Nuxt** is a minimal, opinionated Nuxt 4 starter that exclusively uses pnpm as the package manager. This project prioritizes simplicity, performance, and developer experience.
 
 ## Package Management
 
@@ -21,7 +21,7 @@ This file contains custom instructions for GitHub Copilot to understand and work
 
 ## Testing & Validation
 
-- Before suggesting changes, ensure they are compatible with Nuxt 3
+- Before suggesting changes, ensure they are compatible with Nuxt 4
 - Test commands locally before recommending them
 - Validate that all pnpm scripts work correctly after changes
 
@@ -57,13 +57,13 @@ This file contains custom instructions for GitHub Copilot to understand and work
 ## Dependency Management
 
 - Prefer official `@nuxt/` modules when available
-- Choose well-maintained packages with good Nuxt 3 compatibility
+- Choose well-maintained packages with good Nuxt 4 compatibility
 - Always check for TypeScript support in new dependencies
 - Use Nuxt UI components when building UI elements
 
 ## Development Guidelines
 
-- Follow Nuxt 3 conventions and best practices
+- Follow Nuxt 4 conventions and best practices
 - Prefer server-side rendering (SSR) unless client-side is specifically needed
 - Use Nuxt's built-in features (auto-imports, file-based routing, etc.)
 - Keep the project minimal and focused
@@ -86,7 +86,7 @@ This file contains custom instructions for GitHub Copilot to understand and work
 
 1. Use `pnpm add <package>` for runtime dependencies
 2. Use `pnpm add -D <package>` for development dependencies
-3. Verify compatibility with Nuxt 3 before adding
+3. Verify compatibility with Nuxt 4 before adding
 
 ### Configuration Changes
 
@@ -97,7 +97,7 @@ This file contains custom instructions for GitHub Copilot to understand and work
 ## Troubleshooting
 
 - If build fails, check for TypeScript errors first
-- Ensure all dependencies are compatible with Nuxt 3
+- Ensure all dependencies are compatible with Nuxt 4
 - Verify pnpm lockfile is up to date with `pnpm install`
 - Check Nuxt dev tools for runtime issues
 
